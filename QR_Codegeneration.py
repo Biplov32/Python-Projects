@@ -7,5 +7,6 @@ qrc = qr.QRCode(version=1,error_correction=qr.constants.ERROR_CORRECT_H,box_size
 qrc.add_data("https://www.linkedin.com/in/biplov-belbase/")
 qrc.make(fit=True)
 
+
 img=qrc.make_image(fill_color="blue",back_color="white")
 img.save('linkden2.jpeg')
